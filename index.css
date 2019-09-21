@@ -1,0 +1,208 @@
+@charset "UTF-8";
+body{
+    font-family: 'Times New Roman', Times;
+    background-image: url(images/laptop.jpeg);  
+    background-repeat: no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    /*min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0%;
+    left: 0;*/
+}
+/*Logo styles*/
+header img{
+    height: 100px;
+    margin-left: 80px;
+}
+h3{
+    position: relative;
+    margin-top: -90px;
+    margin-left: 220px;
+    color: crimson;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: white;
+    width: 350px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h6{
+    position: relative;
+    margin-top: -10px;
+    margin-left: 220px;
+    color: crimson;
+    border: none;   
+    width: 250px;  
+    font-size: 12px;
+    border: 1px solid white;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*HomePage content styles*/
+h1{
+    font-size: 300%;
+    color: rgb(74, 74, 253);
+    margin-left: 320px;
+    margin-top: 150px;
+    background-color: white;
+    width: 670px;
+}
+main .p{
+    margin-left: 320px;
+    color: blue;
+    width: 800px;
+    background-color: white;
+}
+/*Navigation styles*/
+header nav{ 
+    margin-left: 800px;
+    margin-top: -77px;      
+    font-family: 'Courier New', Courier, monospace;
+}
+header nav a#a1{
+    margin-right: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid white;
+    width: 70px;
+    background-color: white;
+    color: crimson;
+}
+header nav a#a2{
+    margin-right: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid white;
+    background-color: white;
+    color: crimson;
+}
+header nav a#a3{
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;  
+    border: 1px solid white;
+    background-color: white;
+    color: crimson;
+}
+/*Link styles*/
+main div#p1{
+    text-indent:40px;;
+    height: 40px;
+    width: 300px;
+    background-color: crimson;
+    vertical-align: middle;
+    line-height: 40px;
+    margin-left: 320px;
+    margin-top: 40px;
+    color: white;
+}
+main div#p2{
+    text-indent:40px;;
+    height: 40px;
+    width: 300px;
+    background-color: rgb(100, 97, 97);
+    vertical-align: middle;
+    line-height: 40px;
+    margin-left: 670px;
+    margin-top: -42px;
+}
+main a{
+    text-decoration: none;
+    color: white;
+}
+/*Contact styles*/
+h2{
+    color: crimson;
+    margin-top: 100px;
+}
+.pp a{
+    text-decoration: white;
+    color: white;
+}
+.pp{
+    color: white;
+    text-indent: 400px;
+    margin-top: 50px; 
+}
+#contactme{
+    color: white;
+    margin-top: 150px;
+    text-indent: 400px;
+}
+/*Table style*/
+section div table{
+    color: white;
+    margin-left: 20px;
+    margin-top: 150px;
+    border-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Comment Section*/
+footer div{ 
+    text-indent: 880px;
+    margin-top: 50px;
+    color: white;
+}
+.input1{
+    width: 200px;
+    height: 25px;
+    margin-left: 880px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: crimson;
+    color: white;
+}
+.input2{
+    width: 300px;
+    height: 60px;
+    margin-left: 880px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(100, 97, 97);
+    color: white;
+}
+.submit{
+    width: 100px;
+    height: 25px;
+    margin-left: 880px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: rgb(100, 97, 97);
+    color: white;
+}
+/*marquees-styles*/
+#marquee1{
+    margin-top: 220px;
+    color: white;
+    margin-bottom: 20px;
+}
+#marquee2{
+    margin-top: 120px;
+    color: white;
+}
+#marquee3{
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    color: white;
+}
+/*CV Styles*/
+#CV a{
+    text-decoration: white;
+    color: white;
+    margin-left: 20px;
+}
+
+
